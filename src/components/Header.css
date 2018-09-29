@@ -1,0 +1,11 @@
+.spy-header{
+    background: #161925;
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.3);
+    color: #EFE9E7;
+    font-size: 40px;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}

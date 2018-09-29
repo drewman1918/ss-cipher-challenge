@@ -1,0 +1,54 @@
+.spy-title{
+    background: #161925;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.spy-input{
+    background: url(./../paper.jpg);
+    background-size: cover;
+    background-position: top;
+    border: none;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+    color: #161925;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: calc( 100% - 120px );
+    margin-top: 20px;
+    outline: none;
+    padding: 15px;
+    resize: none;
+    width: 100%;
+}
+
+.spy-button{
+    background: transparent;
+    border: 1px solid #161925;
+    color: #161925;
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px;
+    transition: ease-in-out background 0.2s;
+    width: 100%;
+}
+
+.spy-button:hover{
+    background: rgba(22, 25, 37, 0.3);
+}
+
+@media (max-width: 600px){
+    .input-container{
+        height: calc( 100vh - 100px );
+        margin-bottom: 20px;
+    }
+
+    .spy-input{
+        height: calc( 100% - 140px );
+    }
+}
